@@ -1,0 +1,58 @@
+#container .slide_wrapper {
+  font-family: 'Yu Gothic', 'Meiryo';
+  font-weight: 500;
+}
+
+#container .slide_wrapper[data-template="title"] .slide {
+  background: #0068b6;
+  background-image: url(./image/main-footer.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+#container .slide_wrapper[data-template="title"] mark {
+  background: white;
+  color: #0068b6;
+}
+#container .slide_wrapper mark {
+  background: #0068b6;
+  color: white;
+  padding: 0 0.5rem;
+}
+
+#container .slide_wrapper[data-template="title"] .slide h1 {
+  color: white;
+}
+#container .slide_wrapper[data-template="title"] .slide h6 {
+  color: rgba(255,255,255,.7);
+}
+
+#container .slide_wrapper[data-template="title"] .slide .slide_page {
+  display: none;
+}
+
+#container .slide_wrapper .slide {
+  background: white;
+  background-image: url(./image/content-footer.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 80px;
+}
+
+#container .slide_wrapper .slide .slide_page {
+  right: calc(0.02px * (var(--slide-width))) !important;
+  width: calc(0.04px * (var(--slide-width))) !important;
+  bottom: 10px;
+  color: #53585f;
+  text-align: center;
+  font-size: 0.7em;
+}
+#container .slide_wrapper u {
+  color: #e76c81;
+}
+#container .slide_wrapper a {
+  color: #49b1f2;
+}
